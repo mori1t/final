@@ -1,0 +1,95 @@
+﻿/* CSSに関しては以下のサイトを参照 */
+/* http://www.htmq.com/style/ */
+
+html {
+    margin: 0;         /* 余白の削除 */
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    margin: 0;         /* 余白の削除 */
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: : hidden;
+    background-color: #de9610;
+}
+
+
+/* ヘッダー */
+.header {
+    position: fixed; /* ヘッダーの固定 */
+    top: 0px; /* 位置(上0px) */
+    right: 0px; /* 位置(右0px) */
+    width: 100%; /* 横幅100%　*/
+    height: 70px;
+    background-color: #d16b16;
+}
+
+.header-left {
+text-align: center;
+vertical-align: top;
+}
+.header-right {
+    padding-top: 10px;
+    float: right;
+    vertical-align: top;
+
+    /* border-style: solid; */
+}
+
+.header-right li {
+    padding-right: 20px;
+    list-style: none;
+    float: left;
+    vertical-align: top;
+
+}
+/* ヘッダー終わり */
+
+
+/* メイン部分 */
+.main {
+    width: 50%;
+    min-width: 750px;
+    margin: 70px auto 0 auto;
+    background-color: #f2cf01;
+}
+
+.main h2 {
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+table {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid #aaa; /*solid=一本線*/
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 6px; /*角丸*/
+    overflow: hidden;
+}
+
+/* メイン部分終わり */
+
+
+/* 以下参考資料 */
+/*
+フォント一覧 (他にもたくさんあるとは思いますが良いと思ったサイト)
+Font-familyメーカー：標準フォント一覧からサクッと指定
+https://saruwakakun.com/font-family
+
+色 (これもいいと思ったやつだけ適当に)
+1. パターンで選ぶなら
+カラー配色で迷わない！シーン別配色見本32パターン | Web制作会社スタイル
+http://www.hp-stylelink.com/news/2013/07/20130708.php
+
+2. 有名サイトの色遣いがわかる
+Colours
+http://webcolourdata.com/
+*/
